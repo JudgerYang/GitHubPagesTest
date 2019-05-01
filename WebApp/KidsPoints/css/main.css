@@ -1,0 +1,53 @@
+body {
+    font-family: sans-serif;
+    font-size: large;
+    font-weight: bold;
+    color: azure;
+    background-color: cadetblue;
+    padding: 0;
+    margin: 0;
+}
+
+a:link, a:visited {
+    border-style: solid;
+    border-color: limegreen;
+    background-color: antiquewhite;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 0px;
+}
+
+a:hover, a:active {
+    background-color: deepskyblue;
+    color: white;
+}
+
+#main_layout {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+#top_bar {
+    background-color: red;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+}
+
+#contents {
+}
+
+#bottom_bar {
+    background-color: green;
+}
+
+#kids_tab {
+    text-align: center;
+}
+
+
+
